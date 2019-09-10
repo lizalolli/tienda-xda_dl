@@ -1,0 +1,31 @@
+.button__normal{
+    margin: 20px 0;
+    padding: .7rem 2rem;
+    font-family: $raleway;
+    font-size: $medium;
+    color:$smoky-black;
+    border: 2px solid $smoky-black;
+    font-weight: $bold;
+    &:hover{
+        border-color: $quick-silver;
+    }
+
+}
+
+.button-align{
+    text-align: center;
+}
+
+.button__submit{
+    background-color: $white;
+    color:$smoky-black;
+    padding: 7rem;
+}
+
+.button__suscribe{
+    writing-mode: vertical-rl; 
+    background-color:white;
+    color:pink;
+    border:white;
+    float:right;
+}
